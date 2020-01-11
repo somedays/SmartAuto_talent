@@ -1,11 +1,11 @@
 
 /* noto-sans-kr-100 - latin_korean */
 @font-face {
-font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 100;
-src: url('../fonts/noto-sans-kr-v12-latin_korean-100.eot'); /* IE9 Compat Modes */
-src: local('Noto Sans KR Thin'), local('NotoSansKR-Thin'),
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:100;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-100.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Thin'), local('NotoSansKR-Thin'),
         url('../fonts/noto-sans-kr-v12-latin_korean-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
         url('../fonts/noto-sans-kr-v12-latin_korean-100.woff2') format('woff2'), /* Super Modern Browsers */
         url('../fonts/noto-sans-kr-v12-latin_korean-100.woff') format('woff'), /* Modern Browsers */
@@ -14,11 +14,11 @@ src: local('Noto Sans KR Thin'), local('NotoSansKR-Thin'),
 }
 /* noto-sans-kr-300 - latin_korean */
 @font-face {
-font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 300;
-src: url('../fonts/noto-sans-kr-v12-latin_korean-300.eot'); /* IE9 Compat Modes */
-src: local('Noto Sans KR Light'), local('NotoSansKR-Light'),
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:300;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-300.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Light'), local('NotoSansKR-Light'),
         url('../fonts/noto-sans-kr-v12-latin_korean-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
         url('../fonts/noto-sans-kr-v12-latin_korean-300.woff2') format('woff2'), /* Super Modern Browsers */
         url('../fonts/noto-sans-kr-v12-latin_korean-300.woff') format('woff'), /* Modern Browsers */
@@ -27,11 +27,11 @@ src: local('Noto Sans KR Light'), local('NotoSansKR-Light'),
 }
 /* noto-sans-kr-regular - latin_korean */
 @font-face {
-font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 400;
-src: url('../fonts/noto-sans-kr-v12-latin_korean-regular.eot'); /* IE9 Compat Modes */
-src: local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:400;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-regular.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
         url('../fonts/noto-sans-kr-v12-latin_korean-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
         url('../fonts/noto-sans-kr-v12-latin_korean-regular.woff2') format('woff2'), /* Super Modern Browsers */
         url('../fonts/noto-sans-kr-v12-latin_korean-regular.woff') format('woff'), /* Modern Browsers */
@@ -40,11 +40,11 @@ src: local('Noto Sans KR Regular'), local('NotoSansKR-Regular'),
 }
 /* noto-sans-kr-500 - latin_korean */
 @font-face {
-font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 500;
-src: url('../fonts/noto-sans-kr-v12-latin_korean-500.eot'); /* IE9 Compat Modes */
-src: local('Noto Sans KR Medium'), local('NotoSansKR-Medium'),
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:500;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-500.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Medium'), local('NotoSansKR-Medium'),
         url('../fonts/noto-sans-kr-v12-latin_korean-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
         url('../fonts/noto-sans-kr-v12-latin_korean-500.woff2') format('woff2'), /* Super Modern Browsers */
         url('../fonts/noto-sans-kr-v12-latin_korean-500.woff') format('woff'), /* Modern Browsers */
@@ -53,11 +53,11 @@ src: local('Noto Sans KR Medium'), local('NotoSansKR-Medium'),
 }
 /* noto-sans-kr-700 - latin_korean */
 @font-face {
-font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 700;
-src: url('../fonts/noto-sans-kr-v12-latin_korean-700.eot'); /* IE9 Compat Modes */
-src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:700;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-700.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
         url('../fonts/noto-sans-kr-v12-latin_korean-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
         url('../fonts/noto-sans-kr-v12-latin_korean-700.woff2') format('woff2'), /* Super Modern Browsers */
         url('../fonts/noto-sans-kr-v12-latin_korean-700.woff') format('woff'), /* Modern Browsers */
@@ -66,11 +66,11 @@ src: local('Noto Sans KR Bold'), local('NotoSansKR-Bold'),
 }
 /* noto-sans-kr-900 - latin_korean */
 @font-face {
-font-family: 'Noto Sans KR';
-font-style: normal;
-font-weight: 900;
-src: url('../fonts/noto-sans-kr-v12-latin_korean-900.eot'); /* IE9 Compat Modes */
-src: local('Noto Sans KR Black'), local('NotoSansKR-Black'),
+font-family:'Noto Sans KR';
+font-style:normal;
+font-weight:900;
+src:url('../fonts/noto-sans-kr-v12-latin_korean-900.eot'); /* IE9 Compat Modes */
+src:local('Noto Sans KR Black'), local('NotoSansKR-Black'),
         url('../fonts/noto-sans-kr-v12-latin_korean-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
         url('../fonts/noto-sans-kr-v12-latin_korean-900.woff2') format('woff2'), /* Super Modern Browsers */
         url('../fonts/noto-sans-kr-v12-latin_korean-900.woff') format('woff'), /* Modern Browsers */
@@ -83,9 +83,9 @@ html, body, h1, h2, h3, h4, h5, h6, p, div, img {margin:0;padding:0;border:0;fon
 h1,h2{font-weight:bold;}
 strong {font-weight:600;}
 table,tr,td,thead,tbody,tfoot{border-spacing:0;border-collapse:collapse;}
-ul, ol, li{list-style: none;padding:0;margin:0;}
+ul, ol, li{list-style:none;padding:0;margin:0;}
 a{text-decoration:none;color:#323232;}
-a:hover{color: #c2c2c2;}
+a:hover{color:#c2c2c2;}
 button:focus{outline:none;}
 input,button,select {outline:none;font-family:'Noto Sans KR', sans-serif;font-weight:400;}
 
@@ -111,7 +111,7 @@ input,button,select {outline:none;font-family:'Noto Sans KR', sans-serif;font-we
 
 /* Main Image Area */
 .main-item {position:relative;width:1920px;height:736px;}
-.main-media1 {position:absolute;top:110px;left:50%;margin-left:73px;}
+.main-media1 {position:absolute;top:110px;left:50%;margin-left:-11px;}
 .main-image.owl-carousel .owl-nav {position:absolute;top:auto;bottom:210px;left:50%;margin-left:538px;width:100px;}
 .main-image.owl-carousel .owl-nav button.owl-prev{margin:0;}
 .main-image.owl-carousel .owl-nav button.owl-next,
@@ -194,15 +194,13 @@ input,button,select {outline:none;font-family:'Noto Sans KR', sans-serif;font-we
 .car-list .car-item .price-info .price0 span {display:block;letter-spacing:-0.2px;}
 .car-list .car-item .btn-area {opacity:0;position:absolute;top:-1px;left:-1px;right:-1px;bottom:-1px;background-color:rgba(0,0,0,0.5);text-align:center;line-height:346px;}
 .car-list .car-item:hover .btn-area {opacity:1;transition:all 0.2s;}
-.car-list .car-item .btn-area button {vertical-align:middle;background-color:#50ffe8;color:#000;border:0 none;padding:0;font-size:18px;font-weight:600;opacity:0;cursor:pointer;}
-.car-list .car-item:hover .btn-area button {opacity:1;transition:all 0.3s;transition-delay:0.2s;padding:10px 35px 10px 50px;}
+.car-list .car-item .btn-area button {vertical-align:middle;background-color:#50ffe8;color:#000;border:0 none;padding:0;font-size:18px;font-weight:600;opacity:0;cursor:pointer;line-height:25px;}
+.car-list .car-item:hover .btn-area button {opacity:1;transition:all 0.3s;transition-delay:0.2s;padding:10px 35px 10px 50px;line-height:25px;}
 .car-list .car-item:hover .btn-area button span {display:inline-block;vertical-align:middle;padding-right:10px;}
 .car-list .car-item:hover .btn-area button img {vertical-align:middle;}
 .car-list .more-btn-area {padding:20px 0;text-align:center;}
 .car-list .more-btn-area button {padding:8px 120px;font-size:20px;font-weight:600;color:#777;border:1px solid #777;background-color:#fff;cursor:pointer;}
 .car-list .more-btn-area button:hover {background-color:#f2f2f2;}
-
-
 
 /* Counter */
 .count-area {background:url(../img/counter_bg.png);background-size:cover;height:180px;line-height:180px;}
@@ -215,6 +213,30 @@ input,button,select {outline:none;font-family:'Noto Sans KR', sans-serif;font-we
 .count-area li .count-num {font-size:34px;line-height:35px;font-weight:600;letter-spacing:-2px;color:#ffbf50;vertical-align:middle;font-style:normal;padding-left:15px;}
 .count-area li:nth-child(3) .count-num:after {content:"명";padding-left:3px;}
 
+/* Youtube */
+.youtube-area {background-color:#eee;padding:50px 0;}
+.youtube-wrap {max-width:1260px;margin:0 auto;text-align:center;}
+.youtube-tt-area {padding-bottom:30px;}
+.youtube-tt-area .tt-image {display:inline-block;vertical-align:middle;padding-right:45px;}
+.youtube-tt-area .tt-text {display:inline-block;vertical-align:middle;text-align:left;}
+.youtube-tt-area .tt-text p {font-size:18px;line-height:26px;font-weight:300;color:#333;}
+.youtube-tt-area .tt-text a {display:inline-block;margin-top:20px;background-color:#f00000;height:50px;line-height:50px;padding:0 85px;font-weight:500;color:#fff;}
+
+.youtube-ctn:after {content:"";display:block;clear:both;}
+.youtube-ctn .left-ctn {float:left;width:640px;text-align:left;}
+.youtube-ctn .left-ctn .ctn-tt {font-size:18px;font-weight:500;color:#333;padding:15px 10px 10px 10px;}
+.youtube-ctn .left-ctn .ctn-text {font-size:16px;font-weight:400;color:#777;padding:0 10px 10px 10px;}
+.youtube-ctn .right-ctn {float:right;width:600px;text-align:left;background-color:#fff;padding:30px 20px;box-sizing:border-box;}
+.youtube-ctn .youtube-list li {padding:10px 0;}
+.youtube-ctn .youtube-list li:after {content:"";display:block;clear:both;}
+.youtube-ctn .youtube-list li:first-child {padding-top:0;}
+.youtube-ctn .youtube-list li .list-img {float:left;box-sizing:border-box;width:190px;}
+.youtube-ctn .youtube-list li .list-right {float:left;width:calc(100% - 190px);box-sizing:border-box;}
+.youtube-ctn .youtube-list li .list-right .list-tt {font-size:16px;font-weight:500;color:#333;padding:3px 0 5px 0;}
+.youtube-ctn .youtube-list li .list-right .list-text {font-size:14px;font-weight:400;color:#777;line-height:18px;max-height:52px;overflow:hidden;}
+.youtube-ctn .youtube-list li:hover {cursor:pointer;}
+.youtube-ctn .youtube-list li:hover .list-right .list-tt {color:#2d2ba8;}
+.youtube-ctn .youtube-list li:hover .list-right .list-text {color:#2d2ba8;}
 
 .smart-matching {padding:50px 0;position:relative;}
 .smart-matching.top {background-image:url(../img/match_top_bg.jpg);background-size:cover;}
@@ -280,7 +302,7 @@ input,button,select {outline:none;font-family:'Noto Sans KR', sans-serif;font-we
 .slide-ctn.awards .slide-item .item-tt {text-align:center;}
 
 /* Owl - bug fix */
-.slide-ctn.owl-carousel .owl-nav.disabled {display: block}
+.slide-ctn.owl-carousel .owl-nav.disabled {display:block}
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {position:absolute;top:50%;left:50%;transform:translateY(-50%);margin-left:620px;width:55px;height:50px;background:url(../img/slide_nav_arrow.png) 100% 0 no-repeat !important;overflow:hidden;}
 .owl-carousel .owl-nav button.owl-prev {background-position:0 0 !important;margin-left:-680px;}
@@ -312,6 +334,7 @@ input,button,select {outline:none;font-family:'Noto Sans KR', sans-serif;font-we
 
 .footer {padding:50px 0 160px 0;background-color:#2b2b2b;color:#fff;font-size:14px;text-align:center;line-height:20px;}
 .footer .company-name {padding-bottom:20px;font-size:18px;letter-spacing:-1px;}
+
 
 
 @media only screen and (max-width:750px) {
