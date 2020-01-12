@@ -55,12 +55,17 @@
                         <col width="20%">
                         <col width="20%">
                         <col width="20%">
-                        <col width="20%">
+                        <col width="180px">
                     </colgroup>
                     <tbody>
                         <tr>
                             <td>
                                 <select>
+                                    <option>제조사</option>
+                                    <option>제조사</option>
+                                    <option>제조사</option>
+                                    <option>제조사</option>
+                                    <option>제조사</option>
                                     <option>제조사</option>
                                 </select>
                             </td>
@@ -80,7 +85,7 @@
                                 </select>
                             </td>
                             <td rowspan="2">
-                                <a href="javascript:void(0)">상담신청</a>
+                                <a href="javascript:void(0)" class="act-btn">상담신청</a>
                             </td>
                         </tr>
                         <tr>
@@ -94,8 +99,8 @@
                                 <a href="javascript:void(0)">개인정보취급방침 보기</a>
                             </td>
                             <td>
-                                <input type="radio" id="privacy_agree"><label for="privacy_agree">동의</label>
-                                <input type="radio" id="privacy_not"><label for="privacy_not">비동의</label>
+                                <input type="radio" id="privacy_agree" name="privacy" checked><label for="privacy_agree">동의</label>
+                                <input type="radio" id="privacy_not" name="privacy"><label for="privacy_not">비동의</label>
                             </td>
                         </tr>
                     </tbody>
@@ -469,6 +474,7 @@
         </div>
     </div>
 
+    <!-- Contract List -->
     <div class="contract-area">
         <h2><span>이 집</span><strong>장기렌트</strong> <span>잘하네!</span></h2>
         <p>아는 사람은 모두가 안다는 오토다이렉트카 견적비교 시스템!</p>
@@ -566,16 +572,213 @@
             </ul>
         </div>
     </div>
+
+    <!-- Review List -->
+    <div class="review-area">
+        <div class="review-wrap">
+            <div class="review-left">고객만족 200%<br>출고후기</div>
+            <div class="review-right owl-carousel">
+                <div class="review-item">
+                    <div class="item-img"><img src="resources/img/review_sample.png"></div>
+                    <div class="item-tt">엄상진(김우중)</div>
+                    <div class="item-text">대한민국 국민이라면 누구나 알 만한 국내 굴지의 기업인 CJ그룹과의 계약을 앞두고 정말 준비를 많이 갔습니다~ 대한민국 국민이라면 누구나</div>
+                    <div class="item-date">계약일 : 2019.12.31</div>
+                </div>
+                <div class="review-item">
+                    <div class="item-img"><img src="resources/img/review_sample.png"></div>
+                    <div class="item-tt">엄상진(김우중)</div>
+                    <div class="item-text">대한민국 국민이라면 누구나 알 만한 국내 굴지의 기업인 CJ그룹과의 계약을 앞두고 정말 준비를 많이 갔습니다~ 대한민국 국민이라면 누구나</div>
+                    <div class="item-date">계약일 : 2019.12.31</div>
+                </div>
+                <div class="review-item">
+                    <div class="item-img"><img src="resources/img/review_sample.png"></div>
+                    <div class="item-tt">엄상진(김우중)</div>
+                    <div class="item-text">대한민국 국민이라면 누구나 알 만한 국내 굴지의 기업인 CJ그룹과의 계약을 앞두고 정말 준비를 많이 갔습니다~ 대한민국 국민이라면 누구나</div>
+                    <div class="item-date">계약일 : 2019.12.31</div>
+                </div>
+                <div class="review-item">
+                    <div class="item-img"><img src="resources/img/review_sample.png"></div>
+                    <div class="item-tt">엄상진(김우중)</div>
+                    <div class="item-text">대한민국 국민이라면 누구나 알 만한 국내 굴지의 기업인 CJ그룹과의 계약을 앞두고 정말 준비를 많이 갔습니다~ 대한민국 국민이라면 누구나</div>
+                    <div class="item-date">계약일 : 2019.12.31</div>
+                </div>
+                <div class="review-item">
+                    <div class="item-img"><img src="resources/img/review_sample.png"></div>
+                    <div class="item-tt">엄상진(김우중)</div>
+                    <div class="item-text">대한민국 국민이라면 누구나 알 만한 국내 굴지의 기업인 CJ그룹과의 계약을 앞두고 정말 준비를 많이 갔습니다~ 대한민국 국민이라면 누구나</div>
+                    <div class="item-date">계약일 : 2019.12.31</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Introduce App -->
+    <div class="introduce-app">
+        <div class="app-wrap">
+            <div class="app-left">
+                <h2>오토다이렉트카 장기렌트 전용 APP 출시!</h2>
+                <p>오토다이렉트카 전용 APP으로 쉽고 간편하게 나만의 장기렌트를 이용해보세요.</p>
+                <ol>
+                    <li><strong>01</strong><span>오토 전용 APP 특가로 저렴하고 합리적인 장기렌트 이용 가능!</span></li>
+                    <li><strong>02</strong><span>오토다이렉트카에서 진행한 ‘진짜 출고 이야기’로 다양한 후기 확인 가능!</span></li>
+                    <li><strong>03</strong><span>맞춤 견적내기 기능으로 내가 원하는 차량을 가장 저렴한 견적으로!</span></li>
+                    <li><strong>04</strong><span>나의 차량 정보 확인으로 이용 중인 장기렌트 쉽게 관리 가능!</span></li>
+                </ol>
+            </div>
+            <div class="app-right"><img src="resources/img/app_intro_img.png"></div>
+        </div>
+    </div>
+
+    <!-- 빠른 견적 -->
+    <div class="quotation-area">
+        <div class="quotation-wrap">
+            <div class="quotation-left">
+                <h2>견적문의</h2>
+                <strong>1644 - 2858</strong>
+                <p>평일 : 10:00 ~ 18:30</p>
+                <p>주말 및 공휴일 : 13:00 ~ 17:00</p>
+            </div>
+            <form class="bottom-quo-form">
+                <table>
+                    <colgroup>
+                        <col width="25%">
+                        <col width="25%">
+                        <col width="25%">
+                        <col width="25%">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="이름 및 회사명(필수)">
+                            </td>
+                            <td>
+                                <input type="text" placeholder="전화번호">
+                            </td>
+                            <td>
+                                <select>
+                                    <option>통화가능시간</option>
+                                </select>
+                            </td>
+                            <td rowspan="2">
+                                <textarea placeholder="추가 문의 내용"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select>
+                                    <option>제조사</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>차종</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select>
+                                    <option>이용기간</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <input type="checkbox" id="agree2" checked><label for="agree2">개인정보 수집 이용등에 대한 동의</label>
+                                <a href="javascript:void()">(자세히보기)</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="tc"><a href="javascript:void(0)" class="act-btn">상담신청</a></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+
 </div>
 <div class="footer">
-    <p class="company-name">스마트오토  1544-3256</p>
-    <p>법인상호 : (주)오토다이렉트카 | 주소 : 서울시 성동구 성수이로127 (성수동2가, 보문빌딩)4층 | 대표번호 : 1644-2858</p>
-    <p>FAX : 02-3452-1070 | 대표 : 유우재 | 사업자등록번호 : 120-88-14131 | 개인정보책임관리자 : 유우재</p>
-    <p>COPYRIGHT © SINCE 2013 AutoDirectCar Co.,Ltd. ALL RIGHTS RESERVED.</p>            
+    <div class="footer-wrap">
+        <div class="footer-tab">
+            <div id="autodirectcar" class="active">오토다이렉트카</div>
+            <div id="smartauto">스마트오토</div>
+            <div id="smartdirectcar">스마트다이렉트카</div>
+        </div>
+        <div class="footer-tab-item" id="autodirectcar_tab">
+            <div class="company-info">
+                <div class="company-img">
+                    <div class="img-item"><img src="resources/img/footer_sample.png"></div>
+                </div>
+                <p class="company-tt">오토다이렉트카  1544-3256</p>
+                <p>법인상호 : (주)오토다이렉트카 | 주소 : 서울시 성동구 성수이로127 (성수동2가, 보문빌딩)4층 | 대표번호 : 1644-2858</p>
+                <p>FAX : 02-3452-1070 | 대표 : 유우재 | 사업자등록번호 : 120-88-14131 | 개인정보책임관리자 : 유우재</p>
+                <p>COPYRIGHT © SINCE 2013 AutoDirectCar Co.,Ltd. ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="company-map">
+                <div id="autodirectcar_map"></div>
+                <code id="snippet" class="snippet"></code>
+            </div>
+        </div>
+        <div class="footer-tab-item" id="smartauto_tab">
+            <div class="company-info">
+                <div class="company-img">
+                    <div class="img-item"><img src="resources/img/footer_sample.png"></div>
+                </div>
+                <p class="company-tt">스마트오토  1544-3256</p>
+                <p>법인상호 : (주)오토다이렉트카 | 주소 : 서울시 성동구 성수이로127 (성수동2가, 보문빌딩)4층 | 대표번호 : 1644-2858</p>
+                <p>FAX : 02-3452-1070 | 대표 : 유우재 | 사업자등록번호 : 120-88-14131 | 개인정보책임관리자 : 유우재</p>
+                <p>COPYRIGHT © SINCE 2013 AutoDirectCar Co.,Ltd. ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="company-map"><div id="smartauto_map"></div></div>
+        </div>
+        <div class="footer-tab-item" id="smartdirectcar_tab">
+            <div class="company-info">
+                <div class="company-img">
+                    <div class="img-item"><img src="resources/img/footer_sample.png"></div>
+                </div>
+                <p class="company-tt">스마트다이렉트카  1544-3256</p>
+                <p>법인상호 : (주)오토다이렉트카 | 주소 : 서울시 성동구 성수이로127 (성수동2가, 보문빌딩)4층 | 대표번호 : 1644-2858</p>
+                <p>FAX : 02-3452-1070 | 대표 : 유우재 | 사업자등록번호 : 120-88-14131 | 개인정보책임관리자 : 유우재</p>
+                <p>COPYRIGHT © SINCE 2013 AutoDirectCar Co.,Ltd. ALL RIGHTS RESERVED.</p>
+            </div>
+            <div class="company-map"><div id="smartdirectcar_map"></div></div>
+        </div>
+    </div>
 </div>
 <div class="aside-banner">
-    <div class="banner-img"><img src="resources/img/img_aside.png"></div>
-    <a href="#" class="btn-gotop"></a>
+    <div class="aside-tt">빠른 상담 문의</div>
+    <div class="aside-form">
+        <div class="form-item">
+            <select>
+                <option>제조사</option>
+            </select>
+        </div>
+        <div class="form-item"><input type="text" placeholder="이름"></div>
+        <div class="form-item"><input type="text" placeholder="전화번호"></div>
+        <div class="form-item"><textarea placeholder="상담메모"></textarea></div>
+        <div class="select-team">
+            <div class="team-item">
+                <label for="asideteam1"><div class="label-img"><img src="resources/img/sample_aside_team.png"></div><span>김기욱</span></label>
+                <input type="radio" id="asideteam1" name="aside_team" checked>
+            </div>
+            <div class="team-item">
+                <label for="asideteam2"><div class="label-img"><img src="resources/img/sample_aside_team.png"></div><span>김기욱</span></label>
+                <input type="radio" id="asideteam2" name="aside_team">
+            </div>
+            <div class="team-item">
+                <label for="asideteam3"><div class="label-img"><img src="resources/img/sample_aside_team.png"></div><span>김기욱</span></label>
+                <input type="radio" id="asideteam3" name="aside_team">
+            </div>
+        </div>
+        <div class="team-text">(단, 담당자가 통화중이거나 부재중일 경우 다른 플래너로 대체됩니다.)</div>
+        <div class="form-agree"><label for="form_agree">개인정보 수집 및 이용 동의</label><input type="checkbox" id="form_agree"></div>
+        <div class="form-btn"><a href="javascript:void(0)">상담 신청하기</a></div>
+    </div>
+    <div class="aside-info">
+        <div class="tel-info"><span>전화상담</span><strong>1644-2858</strong></div>
+        <div class="time-info"><span>평일</span><strong>10:00 ~ 18:30</strong><span>주말</span><strong>13:00 ~ 17:00</strong></div>
+    </div>
+    <a href="#" class="btn-gotop">TOP ▲</a>
 </div>
 
 <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -585,6 +788,7 @@
 <script src="resources/js/owl.carousel.min.js"></script>
 <script src="resources/js/jquery.mCustomScrollbar.concat.min.js"></script>
 <script src="resources/js/jquery.pagenav.js"></script>
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=83bfuniegk&amp;submodules=panorama,geocoder,drawing,visualization"></script>
 <script>
 $(window).scroll(function(){
       banner = $('.aside-banner'),
@@ -621,6 +825,15 @@ $(document).ready(function(){
         autoplayTimeout:3000,
         autoplayHoverPause:true,
         responsive:{
+            320:{
+                items:1
+            },
+            768:{
+                items:1
+            },
+            1024:{
+                items:1
+            },
             1260:{
                 items:1
             }
@@ -641,7 +854,7 @@ $(document).ready(function(){
         }
     });
 
-  var owl = $('.owl-carousel.slide-ctn.meeting');
+  var owl = $('.owl-carousel.review-right');
         owl.owlCarousel({
         margin: 0,
         loop: true,
@@ -650,14 +863,8 @@ $(document).ready(function(){
         autoplayTimeout:3000,
         autoplayHoverPause:true,
         responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:4
+            1260:{
+                items:5
             }
         }
     });
@@ -673,6 +880,26 @@ $(document).ready(function(){
         $(this).addClass('on');
     });
 
+    jQuery('.footer-tab > div').click(function(e){
+        var tab_id = jQuery(this).attr('id');
+        jQuery('.footer-tab > div').removeClass('active');
+        $(this).addClass('active');
+        jQuery('.footer-tab-item').hide();
+        jQuery('#' + tab_id + '_tab').show();
+    });
+    jQuery('.footer-tab > div:first-child').trigger('click');
+
+});
+
+// 네이버 지도
+var map = new naver.maps.Map('autodirectcar_map', {
+    center: new naver.maps.LatLng(37.5461968,127.0573569),
+    zoom: 11
+});
+// 네이버 지도 (핀)
+var marker = new naver.maps.Marker({
+    position: new naver.maps.LatLng(37.5461968,127.0573569),
+    map: map
 });
 
 </script>
