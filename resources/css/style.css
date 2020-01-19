@@ -111,7 +111,10 @@ input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-seri
 .content {min-width:1260px;}
 
 /* Main Image Area */
-.main-item {position:relative;width:1920px;height:819px;}
+.main-item {position:relative;min-width:1260px;height:819px;text-align:center;}
+.main-item img {max-width:1260px;margin:0 auto;}
+.main-item {background-position:50% 0;background-repeat:no-repeat}
+
 .main-image-media1 {position:absolute;top:385px;left:50%;margin-left:-168px;}
 .main-image-media2 {position:absolute;top:385px;left:50%;margin-left:200px;}
 .main-image-btn {position:absolute;top:530px;left:50%;margin-left:-580px;width:365px;height:55px;cursor:pointer;}
