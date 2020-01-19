@@ -36,11 +36,12 @@
     <!-- 메인화면 이미지 -->
     <div class="main-image owl-carousel">
         <div class="main-item"><img src="resources/img/main_img_01.png"></div>
+        <div class="main-item"><img src="resources/img/main_img_02.png"></div>
         <div class="main-item">
-            <div class="main-media1">
-                <iframe width="640" height="360" src="https://www.youtube.com/embed/6MqLDtNL-_Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <img src="resources/img/main_img_01.png">
+            <div class="main-image-media1"><iframe width="359" height="202" src="https://www.youtube.com/embed/6MqLDtNL-_Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="main-image-media2"><iframe width="359" height="202" src="https://www.youtube.com/embed/6MqLDtNL-_Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div class="main-image-btn"><img src="resources/img/main_img_03_btn.png"></div>
+            <img src="resources/img/main_img_03.png">
         </div>
     </div>
     
@@ -111,52 +112,56 @@
 
     <!-- Team Schedule -->
     <div class="team-schedule">
-        <h2><span>광고 모델이 아닙니다.</span><strong>진짜 직원 입니다!</strong></h2>
+        <h2><span>광고모델 아닙니다.</span><strong>진짜 직원 입니다!</strong></h2>
         <p>오토다이렉트카 정식 직원인 이들은 단순 광고모델이 아닙니다.</p>
         <p>직접 고객에게 전화를 걸어 차량 상담을 드리고 본인만이 알고 있는 특가를 고객여러분에게 제공할 예정입니다.</p>
         <p>빠르게 문의해보세요.<small>(단, 담당자가 통화중이거나 부재일 경우 전화상담이 지연될 수 있습니다.)</small></p>
         <div class="team-sch-wrap">
-            <div class="schedule-list">
+            <div class="schedule-list owl-carousel">
                 <div class="schedule-item"><span>2019.12.15(월)</span><strong>A팀</strong></div>
-                <div class="schedule-item"><span>2019.12.16(화)</span><strong>B팀</strong></div>
+                <div id="today" class="schedule-item active"><span>2019.12.16(화)</span><strong>B팀</strong></div>
                 <div class="schedule-item"><span>2019.12.17(수)</span><strong>A팀</strong></div>
+                <div class="schedule-item"><span>2019.12.18(목)</span><strong>A팀</strong></div>
+                <div class="schedule-item"><span>2019.12.19(금)</span><strong>A팀</strong></div>
+                <div class="schedule-item"><span>2019.12.20(토)</span><strong>A팀</strong></div>
+                <div class="schedule-item"><span>2019.12.21(일)</span><strong>A팀</strong></div>
             </div>
             <div class="team-list">           
                 <!-- A 팀 -->
                 <div class="team-box">
                     <h3>A팀</h3>
                     <div class="team-info">
-                        <div class="team-img"></div>
-                        <div class="team-name">김기욱</div>
-                        <div class="team-detail">
+                        <div class="team-img"><img src="resources/img/team_a.png"></div>
+                        <div class="team-info-text">
+                            <h4>김기욱</h4>
                             <p>SBS 공채 7기 개그맨</p>
                             <p>자동차 전문가</p>
                         </div>
                     </div>
                     <div class="team-leader">
-                        <div class="leader-img"></div>
-                        <div class="leader-name">김원영팀장</div>
-                        <div class="leader-detail">
+                        <div class="leader-img"><img src="resources/img/team_a_leader.png"></div>
+                        <div class="leader-info">
+                            <h4>김원영팀장</h4>
                             <p>장기렌트/리스 경력 10년</p>
                             <p>2018년 오토다이렉트카 판매왕</p>
                         </div>
                     </div>
                 </div>
                 <!-- B 팀 -->                
-                <div class="team-box">
+                <div class="team-box active">
                     <h3>B팀</h3>
                     <div class="team-info">
-                        <div class="team-img"></div>
-                        <div class="team-name">김기욱</div>
-                        <div class="team-detail">
+                        <div class="team-img"><img src="resources/img/team_b.png"></div>
+                        <div class="team-info-text">
+                            <h4>김기욱</h4>
                             <p>SBS 공채 7기 개그맨</p>
                             <p>자동차 전문가</p>
                         </div>
                     </div>
                     <div class="team-leader">
-                        <div class="leader-img"></div>
-                        <div class="leader-name">김원영팀장</div>
-                        <div class="leader-detail">
+                        <div class="leader-img"><img src="resources/img/team_b_leader.png"></div>
+                        <div class="leader-info">
+                            <h4>김원영팀장</h4>
                             <p>장기렌트/리스 경력 10년</p>
                             <p>2018년 오토다이렉트카 판매왕</p>
                         </div>
@@ -166,17 +171,17 @@
                 <div class="team-box">
                     <h3>C팀</h3>
                     <div class="team-info">
-                        <div class="team-img"></div>
-                        <div class="team-name">김기욱</div>
-                        <div class="team-detail">
+                        <div class="team-img"><img src="resources/img/team_c.png"></div>
+                        <div class="team-info-text">
+                            <h4>김기욱</h4>
                             <p>SBS 공채 7기 개그맨</p>
                             <p>자동차 전문가</p>
                         </div>
                     </div>
                     <div class="team-leader">
-                        <div class="leader-img"></div>
-                        <div class="leader-name">김원영팀장</div>
-                        <div class="leader-detail">
+                        <div class="leader-img"><img src="resources/img/team_c_leader.png"></div>
+                        <div class="leader-info">
+                            <h4>김원영팀장</h4>
                             <p>장기렌트/리스 경력 10년</p>
                             <p>2018년 오토다이렉트카 판매왕</p>
                         </div>
@@ -186,7 +191,53 @@
         </div>
     </div>
     <!-- 게릴라 특가 -->
-    <div class="guerrilla-deals"></div>
+    <div class="guerrilla-deals">
+        <div class="guerrilla-wrap">
+            <div class="d-day">D-30</div>
+            <h2><strong>김기욱</strong>의 <span>게릴라 특가</span></h2>
+            <div class="guerrilla-list">
+                <div class="guerrilla-item">
+                    <div class="car-info">
+                        <div class="car-name">팰리세이드</div>
+                        <div class="car-image"><img src="http://autoimg.danawa.com/photo/3563/model_600.png" width="100%"></div>
+                        <div class="car-desc">48개월/연 2만km/보증금 0%</div>
+                    </div>
+                    <div class="price-info">
+                        <div class="default-price"><span>기존 월 납입금</span><strong>￦ 550,000</strong></div>
+                        <div class="promotion-price"><span>- 김기욱 프로모션</span><strong>￦ 110,000</strong></div>
+                        <div class="total-price"><strong>44만원</strong><small>(VAT 포함가)</small></div>
+                    </div>
+                    <div class="btn-area"><button type="button"><span>견적문의</span><img src="resources/img/car_list_btn_arrow.png"></button></div>
+                </div>
+                <div class="guerrilla-item best">
+                    <div class="car-info">
+                        <div class="car-name">팰리세이드</div>
+                        <div class="car-image"><img src="http://autoimg.danawa.com/photo/3563/model_600.png" width="100%"></div>
+                        <div class="car-desc">48개월/연 2만km/보증금 0%</div>
+                    </div>
+                    <div class="price-info">
+                        <div class="default-price"><span>기존 월 납입금</span><strong>￦ 550,000</strong></div>
+                        <div class="promotion-price"><span>- 김기욱 프로모션</span><strong>￦ 110,000</strong></div>
+                        <div class="total-price"><strong>44만원</strong><small>(VAT 포함가)</small></div>
+                    </div>
+                    <div class="btn-area"><button type="button"><span>견적문의</span><img src="resources/img/car_list_btn_arrow.png"></button></div>
+                </div>
+                <div class="guerrilla-item">
+                    <div class="car-info">
+                        <div class="car-name">팰리세이드</div>
+                        <div class="car-image"><img src="http://autoimg.danawa.com/photo/3563/model_600.png" width="100%"></div>
+                        <div class="car-desc">48개월/연 2만km/보증금 0%</div>
+                    </div>
+                    <div class="price-info">
+                        <div class="default-price"><span>기존 월 납입금</span><strong>￦ 550,000</strong></div>
+                        <div class="promotion-price"><span>- 김기욱 프로모션</span><strong>￦ 110,000</strong></div>
+                        <div class="total-price"><strong>44만원</strong><small>(VAT 포함가)</small></div>
+                    </div>
+                    <div class="btn-area"><button type="button"><span>견적문의</span><img src="resources/img/car_list_btn_arrow.png"></button></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- 전차종 견적문의 -->
     <div class="allcar-list">
@@ -781,6 +832,112 @@
     <a href="#" class="btn-gotop">TOP ▲</a>
 </div>
 
+<div class="popup-quotation">
+    <div class="popup-box">
+        <div class="popup-tt">
+            <h2>실시간 견적문의</h2>
+            <button type="button" class="popup-close"><img src="resources/img/popup_close.png"></button>
+        </div>
+        <div class="popup-ctn">
+            <div class="select-item">
+                <h3>제조사 선택</h3>
+                <ul>
+                    <li><input type="radio" id="check_brand1" name="check_brand" /><label for="check_brand1"><span>현대</span></label></li>
+                    <li><input type="radio" id="check_brand2" name="check_brand" /><label for="check_brand2"><span>기아</span></label></li>
+                    <li><input type="radio" id="check_brand3" name="check_brand" /><label for="check_brand3"><span>르노삼성</span></label></li>
+                    <li><input type="radio" id="check_brand4" name="check_brand" /><label for="check_brand4"><span>쉐보레</span></label></li>
+                    <li><input type="radio" id="check_brand5" name="check_brand" /><label for="check_brand5"><span>BMW</span></label></li>
+                    <li><input type="radio" id="check_brand6" name="check_brand" /><label for="check_brand6"><span>벤츠</span></label></li>
+                    <li><input type="radio" id="check_brand7" name="check_brand" /><label for="check_brand7"><span>쉐보레</span></label></li>
+                    <li><input type="radio" id="check_brand8" name="check_brand" /><label for="check_brand8"><span>BMW</span></label></li>
+                    <li><input type="radio" id="check_brand9" name="check_brand" /><label for="check_brand9"><span>벤츠</span></label></li>
+                </ul>
+            </div>
+            <div class="select-item">
+                <h3>차량 선택</h3>
+                <ul>
+                    <li><input type="radio" id="check_car1" name="check_car" /><label for="check_car1"><span>더 뉴 그랜저 hybrid</span></label></li>
+                    <li><input type="radio" id="check_car2" name="check_car" /><label for="check_car2"><span>더 뉴 그랜저 hybrid</span></label></li>
+                    <li><input type="radio" id="check_car3" name="check_car" /><label for="check_car3"><span>더 뉴 그랜저 hybrid</span></label></li>
+                    <li><input type="radio" id="check_car4" name="check_car" /><label for="check_car4"><span>더 뉴 그랜저 hybrid</span></label></li>
+                    <li><input type="radio" id="check_car5" name="check_car" /><label for="check_car5"><span>더 뉴 그랜저 hybrid</span></label></li>
+                    <li><input type="radio" id="check_car6" name="check_car" /><label for="check_car6"><span>더 뉴 그랜저 hybrid</span></label></li>
+                </ul>
+            </div>
+            <div class="select-item">
+                <h3>등급 선택</h3>
+                <ul>
+                    <li><input type="radio" id="check_grade1" name="check_grade" /><label for="check_grade1"><span>2020년형 가솔린 2.5 프리미엄</span><strong>345,000,000원</strong></label></li>
+                    <li><input type="radio" id="check_grade2" name="check_grade" /><label for="check_grade2"><span>2020년형 가솔린 2.5 프리미엄</span><strong>345,000,000원</strong></label></li>
+                    <li><input type="radio" id="check_grade3" name="check_grade" /><label for="check_grade3"><span>2020년형 가솔린 2.5 프리미엄</span><strong>345,000,000원</strong></label></li>
+                    <li><input type="radio" id="check_grade4" name="check_grade" /><label for="check_grade4"><span>2020년형 가솔린 2.5 프리미엄</span><strong>345,000,000원</strong></label></li>
+                    <li><input type="radio" id="check_grade5" name="check_grade" /><label for="check_grade5"><span>2020년형 가솔린 2.5 프리미엄</span><strong>345,000,000원</strong></label></li>
+                    <li><input type="radio" id="check_grade6" name="check_grade" /><label for="check_grade6"><span>2020년형 가솔린 2.5 프리미엄</span><strong>345,000,000원</strong></label></li>
+                    <li><input type="radio" id="check_grade7" name="check_grade" /><label for="check_grade7"><span>2020년형 가솔린 2.5 프리미엄</span><strong>345,000,000원</strong></label></li>
+                    <li><input type="radio" id="check_grade8" name="check_grade" /><label for="check_grade8"><span>2020년형 가솔린 2.5 프리미엄</span><strong>345,000,000원</strong></label></li>
+                    <li><input type="radio" id="check_grade9" name="check_grade" /><label for="check_grade9"><span>2020년형 가솔린 2.5 프리미엄</span><strong>345,000,000원</strong></label></li>
+                </ul>
+            </div>
+            <div class="select-item">
+                <h3>옵션 선택</h3>
+                <ul>
+                    <li><input type="radio" id="check_grade1" name="check_grade" /><label for="check_grade1"><span>현대</span></label></li>
+                    <li><input type="radio" id="check_grade2" name="check_grade" /><label for="check_grade2"><span>기아</span></label></li>
+                    <li><input type="radio" id="check_grade3" name="check_grade" /><label for="check_grade3"><span>르노삼성</span></label></li>
+                    <li><input type="radio" id="check_grade4" name="check_grade" /><label for="check_grade4"><span>쉐보레</span></label></li>
+                    <li><input type="radio" id="check_grade5" name="check_grade" /><label for="check_grade5"><span>BMW</span></label></li>
+                    <li><input type="radio" id="check_grade4" name="check_grade" /><label for="check_grade4"><span>쉐보레</span></label></li>
+                    <li><input type="radio" id="check_grade5" name="check_grade" /><label for="check_grade5"><span>BMW</span></label></li>
+                    <li><input type="radio" id="check_grade6" name="check_grade" /><label for="check_grade6"><span>벤츠</span></label></li>
+                    <li><input type="radio" id="check_grade7" name="check_grade" /><label for="check_grade7"><span>쉐보레</span></label></li>
+                    <li><input type="radio" id="check_grade8" name="check_grade" /><label for="check_grade8"><span>BMW</span></label></li>
+                    <li><input type="radio" id="check_grade9" name="check_grade" /><label for="check_grade9"><span>벤츠</span></label></li>
+                </ul>
+            </div>
+            <div class="select-item car-price">
+                <h3>차량가격 (옵션 포함)</h3>
+                <div class="car-price">
+                    <div class="car-info">
+
+                        <strong>현대 더 뉴 그랜저 hybrid</strong>
+                        <span>2020년형 가솔린 2.5 프리미엄 초이스</span>
+                    </div>
+                    <div class="price-info">
+                        <strong>400,000,000</strong>
+                        <span>원</span>
+                    </div>
+                </div>
+            </div>
+            <div class="select-item form-area">
+                <h3>대여 조건 선택</h3>
+                <div class="car-form select-list">
+                    <div class="form-item w50"><select><option>이용방법 선택</option></select></div>
+                    <div class="form-item w50"><select><option>이용기간 선택</option></select></div>
+                    <div class="form-item w50"><select><option>보증금 선택</option></select></div>
+                    <div class="form-item w50"><select><option>7,000,000원</option></select></div>
+                    <div class="form-item w50"><select><option>선수금 선택</option></select></div>
+                    <div class="form-item w50"><select><option>7,000,000원</option></select></div>
+                    <div class="form-item w50"><select><option>연간 주행거리 선택</option></select></div>
+                    <div class="form-item w50"><select><option>상담 가능시간 선택</option></select></div>
+                </div>
+            </div>
+            <div class="select-item form-area">
+                <h3>고객 정보 입력 ( * 필수 )</h3>
+                <div class="car-form input-list">
+                    <div class="form-item req"><label for="user_name">이름(회사명)</label><input type="text" id="user_name"></div>
+                    <div class="form-item req"><label for="user_tel">전화번호('-'제외)</label><input type="text" id="user_tel"></div>
+                    <div class="form-item"><label for="user_mail">E-MAIL</label><input type="text" id="user_mail"></div>
+                    <div class="form-item"><label for="user_memo">상담메모</label><input type="text" id="user_memo"></div>
+                </div>
+            </div>
+            <div class="popup-footer">
+                <div class="user-agree"><input type="checkbox" id="user_agree" checked><label for="user_agree">개인정보 수집 이용등에 대한 동의</label></div>
+                <div class="footer-btnarea"><button type="button" class="quotation-submit">견적문의</button></div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="resources/js/vticker-min.js"></script>
 <script src="resources/js/waypoints.min.js"></script>
@@ -805,6 +962,11 @@ $(window).scroll(function(){
 $(document).ready(function(){
 
   $('.youtube-list .scrollbar-inner').mCustomScrollbar();
+
+
+  $('.select-item ul').mCustomScrollbar();
+
+  $('.popup-ctn').mCustomScrollbar();
 
   $(".contract-list").mCustomScrollbar({
         axis:"x",
@@ -839,7 +1001,30 @@ $(document).ready(function(){
             }
         }
     });
-
+    
+    var owl = $('.owl-carousel.schedule-list');
+        owl.owlCarousel({
+        margin: 0,
+        loop: false,
+        nav: true,
+        touchDrag: false,
+        mouseDrag: false,
+        autoplay:false,
+        responsive:{
+            320:{
+                items:3
+            },
+            768:{
+                items:3
+            },
+            1024:{
+                items:3
+            },
+            1260:{
+                items:3
+            }
+        }
+    });
     
   var owl = $('.owl-carousel.brand-list');
         owl.owlCarousel({
@@ -869,6 +1054,14 @@ $(document).ready(function(){
         }
     });
 
+    $('.car-list .car-item .btn-area button').click(function() {
+        $('.popup-quotation').addClass('on');
+    });
+
+    $('.popup-quotation .popup-close').click(function() {
+        $('.popup-quotation').removeClass('on');
+    });
+    
     
     $('.allcar-tab .brand-tt').click(function() {
         $('.allcar-tab .brand-tt').removeClass('active');
