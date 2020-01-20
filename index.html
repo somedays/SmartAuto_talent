@@ -663,7 +663,7 @@
         </div>
     </div>
 
-    <!-- Introduce App -->
+    <!-- Introduce App
     <div class="introduce-app">
         <div class="app-wrap">
             <div class="app-left">
@@ -679,9 +679,10 @@
             <div class="app-right"><img src="resources/img/app_intro_img.png"></div>
         </div>
     </div>
+     -->
 
     <!-- 빠른 견적 -->
-    <div class="quotation-area" id="quotation">
+    <div class="quotation-area white-bg" id="quotation">
         <div class="quotation-wrap">
             <div class="quotation-left">
                 <h2>견적문의</h2>
@@ -750,11 +751,6 @@
 </div>
 <div class="footer">
     <div class="footer-wrap">
-        <div class="footer-tab">
-            <div id="autodirectcar" class="active">오토다이렉트카</div>
-            <div id="smartauto">스마트오토</div>
-            <div id="smartdirectcar">스마트다이렉트카</div>
-        </div>
         <div class="footer-tab-item" id="autodirectcar_tab">
             <div class="company-info">
                 <div class="company-img">
@@ -769,30 +765,6 @@
                 <div id="autodirectcar_map"></div>
                 <code id="snippet" class="snippet"></code>
             </div>
-        </div>
-        <div class="footer-tab-item" id="smartauto_tab">
-            <div class="company-info">
-                <div class="company-img">
-                    <div class="img-item"><img src="resources/img/footer_sample.png"></div>
-                </div>
-                <p class="company-tt">스마트오토  1544-3256</p>
-                <p>법인상호 : (주)오토다이렉트카 | 주소 : 서울시 성동구 성수이로127 (성수동2가, 보문빌딩)4층 | 대표번호 : 1644-2858</p>
-                <p>FAX : 02-3452-1070 | 대표 : 유우재 | 사업자등록번호 : 120-88-14131 | 개인정보책임관리자 : 유우재</p>
-                <p>COPYRIGHT © SINCE 2013 AutoDirectCar Co.,Ltd. ALL RIGHTS RESERVED.</p>
-            </div>
-            <div class="company-map"><div id="smartauto_map"></div></div>
-        </div>
-        <div class="footer-tab-item" id="smartdirectcar_tab">
-            <div class="company-info">
-                <div class="company-img">
-                    <div class="img-item"><img src="resources/img/footer_sample.png"></div>
-                </div>
-                <p class="company-tt">스마트다이렉트카  1544-3256</p>
-                <p>법인상호 : (주)오토다이렉트카 | 주소 : 서울시 성동구 성수이로127 (성수동2가, 보문빌딩)4층 | 대표번호 : 1644-2858</p>
-                <p>FAX : 02-3452-1070 | 대표 : 유우재 | 사업자등록번호 : 120-88-14131 | 개인정보책임관리자 : 유우재</p>
-                <p>COPYRIGHT © SINCE 2013 AutoDirectCar Co.,Ltd. ALL RIGHTS RESERVED.</p>
-            </div>
-            <div class="company-map"><div id="smartdirectcar_map"></div></div>
         </div>
     </div>
 </div>
@@ -1031,6 +1003,7 @@ $(document).ready(function(){
         margin: 0,
         loop: true,
         nav: true,
+        dots:false,
         autoplay:false,
         responsive:{
             1260:{
@@ -1072,15 +1045,6 @@ $(document).ready(function(){
         $('.brand-list.owl-carousel .owl-item').removeClass('on');
         $(this).addClass('on');
     });
-
-    jQuery('.footer-tab > div').click(function(e){
-        var tab_id = jQuery(this).attr('id');
-        jQuery('.footer-tab > div').removeClass('active');
-        $(this).addClass('active');
-        jQuery('.footer-tab-item').hide();
-        jQuery('#' + tab_id + '_tab').show();
-    });
-    jQuery('.footer-tab > div:first-child').trigger('click');
 
 });
 

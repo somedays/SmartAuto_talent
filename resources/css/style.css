@@ -95,7 +95,7 @@ input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-seri
 .header-wrap {position:relative;max-width:1260px;margin:0 auto;}
 .header-wrap:after {content:"";display:block;clear:both;}
 .header .nav-ctr {display:none;}
-.header .logo {position:absolute;top:10px;left:0;}
+.header .logo {position:absolute;top:17px;left:0;}
 .header .logo a {display:block;}
 .header .logo img {vertical-align:middle;}
 
@@ -205,8 +205,9 @@ input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-seri
 .guerrilla-deals h2 span {display:inline-block;position:relative;font-weight:600;color:#ff008a;}
 .guerrilla-deals h2 span:after {content:"";position:absolute;bottom:5px;left:-10px;right:-10px;height:20px;background-color:rgba(255, 0, 138, 0.2);display:block;}
 .guerrilla-deals .guerrilla-list {display:flex;}
-.guerrilla-deals .guerrilla-item {flex:1;background-color:#fff;}
-.guerrilla-deals .guerrilla-item.best {background-color:#50ffe8;}
+.guerrilla-deals .guerrilla-item {flex:1;background-color:#fff;border-left:1px solid #eee;}
+.guerrilla-deals .guerrilla-item:first-child {border-left:0 none;}
+.guerrilla-deals .guerrilla-item:hover {background-color:#50ffe8;}
 .guerrilla-deals .guerrilla-item .car-info {padding:40px 0 0 0;}
 .guerrilla-deals .guerrilla-item .car-info .car-name {text-align:center;font-size:24px;font-weight:600;}
 .guerrilla-deals .guerrilla-item .car-info .car-image {text-align:center;height:180px;line-height:180px;}
@@ -243,9 +244,11 @@ input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-seri
 .brand-list.owl-carousel .owl-item.on .brand-item span {color:#000;font-weight:600;}
 .allcar-tab .brand-list .brand-item.select span {color:#232323;}
 .allcar-tab .brand-tt.active + .brand-list {display:block !important;}
+.brand-list.owl-carousel .owl-nav {position:absolute;top:0;left:0;right:0;height:55px;}
+.brand-list.owl-carousel .owl-stage-outer {z-index:1;}
 .brand-list.owl-carousel .owl-nav button.owl-next,
-.brand-list.owl-carousel .owl-nav button.owl-prev {height:55px;width:26px;margin-left:604px;top:2px;transform:none;}
-.brand-list.owl-carousel .owl-nav button.owl-prev {margin-left:-630px;width:26px;}
+.brand-list.owl-carousel .owl-nav button.owl-prev {position:absolute;top:2px;right:0;height:55px;width:26px;transform:none;background:transparent url(../img/slide_nav_arrow.png) 100% 0 no-repeat;font-size:0;overflow:hidden;text-indent:-99px;z-index:2;}
+.brand-list.owl-carousel .owl-nav button.owl-prev {left:0;right:auto;width:26px;background-position:0 0;}
 
 /* Car List */
 .car-list {padding:20px 0 50px 0;}
@@ -359,6 +362,7 @@ input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-seri
 
 
 .quotation-area {background-color:#eee;padding:60px 0;}
+.quotation-area.white-bg {background-color:#fff;}
 .quotation-wrap {position:relative;max-width:1260px;margin:0 auto;}
 .quotation-left {position:absolute;top:0;left:0;}
 .quotation-left h2 {font-size:40px;font-weight:600;color:#2e2ba8;}
@@ -400,7 +404,7 @@ input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-seri
 .aside-form .form-btn {padding-bottom:15px;border-bottom:1px solid #e0e0e0;}
 .aside-info {padding:0 10px;text-align:center;}
 .aside-info .tel-info span {display:block;font-size:15px;}
-.aside-info .tel-info strong {display:block;font-size:32px;color:#2e2ba8;line-height:32px;}
+.aside-info .tel-info strong {display:block;font-size:32px;color:#5450ff;line-height:32px;}
 .aside-info .time-info span {display:block;font-size:15px;border:1px solid #e0e0e0;color:#777;margin-top:10px;font-weight:300;}
 .aside-info .time-info strong {display:block;font-size:15px;padding:5px 0 0 0;color:#777;font-weight:300;letter-spacing:0;}
 .aside-banner .btn-gotop {display:block;background-color:#e5e5e5;text-align:center;font-size:20px;font-weight:600;height:40px;line-height:40px;color:#555;margin-top:10px;}
