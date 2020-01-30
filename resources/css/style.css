@@ -179,9 +179,9 @@ input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-seri
 .team-list .team-box .team-info-text h4 {font-size:36px;font-weight:600;}
 .team-list .team-box .team-info-text p {font-size:18px;font-weight:300;}
 .team-list .team-box .team-leader {position:relative;background-color:#eeeeee;padding:15px;min-height:120px;box-sizing:border-box;color:#555;}
-.team-list .team-box .team-leader .leader-img {position:absolute;top:15px;left:15px;width:90px;height:90px;border-radius:50%;overflow:hidden;}
+.team-list .team-box .team-leader .leader-img {position:absolute;top:15px;left:15px;width:90px;height:90px;border-radius:50%;overflow:hidden;display:none;}
 .team-list .team-box .team-leader .leader-img img {width:100%;height:100%;}
-.team-list .team-box .team-leader .leader-info {padding-left:120px;padding-top:5px;font-size:14px;font-weight:500;color:#555;}
+.team-list .team-box .team-leader .leader-info {padding-left:20px;padding-top:5px;font-size:14px;font-weight:500;color:#555;}
 .team-list .team-box .team-leader .leader-info h4 {font-size:20px;padding-bottom:5px;}
 .team-list .team-box.active h3 {background-color:#5450ff;color:#fff;}
 .team-list .team-box.active .team-info {color:#121212;}
@@ -339,7 +339,7 @@ input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-seri
 .review-left {position:absolute;top:0;left:0;bottom:0;width:270px;font-size:38px;line-height:50px;font-weight:600;color:#333;}
 .review-right {padding-left:270px;max-width:980px;}
 .review-item .item-img {font-size:0;width:180px;margin:0 auto;}
-.review-item .item-tt {font-size:16px;color:#333;font-weight:500;padding:10px 0;max-width:180px;margin:0 auto;}
+.review-item .item-tt {font-size:16px;color:#333;font-weight:500;padding:10px 0;max-width:180px;margin:0 auto;line-height:20px;}
 .review-item .item-text {font-size:12px;line-height:15px;max-height:60px;overflow:hidden;white-space:pre-wrap;word-break:break-all;color:#555;max-width:180px;margin:0 auto;}
 .review-item .item-date {font-size:12px;color:#555;padding:5px 0;max-width:180px;margin:0 auto;}
 .review-right.owl-carousel .owl-nav.disabled {display:block;position:absolute;left:0;bottom:0;}
