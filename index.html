@@ -858,7 +858,7 @@
         </div>
     </div>
 </div>
-<div class="popup-policy on">
+<div class="popup-policy">
     <div class="popup-box">
         <div class="popup-tt">
             <h2>개인정보 수집·이용 및 제공 동의</h2>
@@ -1086,7 +1086,7 @@ $(document).ready(function(){
             }
         }
     });
-
+    
     $('.car-list .car-item .btn-area button').click(function() {
         $('.popup-quotation').addClass('on');
     });
@@ -1095,6 +1095,14 @@ $(document).ready(function(){
         $('.popup-quotation').removeClass('on');
     });
     
+    $('.quotation-submit').click(function() {
+        $('.popup-policy').addClass('on');
+    });
+
+    $('.popup-policy .popup-close').click(function() {
+        $('.popup-policy').removeClass('on');
+    });
+
     
     $('.allcar-tab .brand-tt').click(function() {
         $('.allcar-tab .brand-tt').removeClass('active');
