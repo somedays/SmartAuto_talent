@@ -434,10 +434,11 @@ input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-seri
 .popup-quotation .select-item:nth-child(1) {width:215px;border-left:0 none;}
 .popup-quotation .select-item:nth-child(2) {width:285px;}
 .popup-quotation .select-item:nth-child(3) {width:500px;}
-.popup-quotation .select-item:nth-child(4) {width:500px;border-left:0 none;}
-.popup-quotation .select-item:nth-child(5) {width:500px;}
-.popup-quotation .select-item:nth-child(6) {width:500px;border-left:0 none;border-bottom:1px solid #eee;}
-.popup-quotation .select-item:nth-child(7) {width:500px;border-bottom:1px solid #eee;}
+.popup-quotation .select-item:nth-child(4) {width:500px;height:175px;border-left:0 none;}
+.popup-quotation .select-item:nth-child(5) {float:right;width:500px;height:325px;}
+.popup-quotation .select-item:nth-child(6) {width:500px;height:150px;}
+.popup-quotation .select-item:nth-child(7) {width:500px;border-left:0 none;border-bottom:1px solid #eee;}
+.popup-quotation .select-item:nth-child(8) {width:500px;border-bottom:1px solid #eee;}
 .popup-quotation .select-item h3 {height:45px;line-height:45px;background-color:#777;padding:0 25px;color:#fff;}
 .popup-quotation .select-item ul {list-style:none;margin:0;padding:0;height:170px;overflow:auto;box-sizing:border-box;}
 .popup-quotation .mCSB_inside > .mCSB_container {margin-right:5px;padding:10px 0;}
@@ -459,11 +460,30 @@ input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-seri
 .popup-quotation .select-item ul li input[type="radio"]:checked + label:before,
 .popup-quotation .select-item ul li input[type="checkbox"]:checked + label:before {border:2px solid #e00000;background:#fff url(../img/pop_select_check.png) 50% 50% no-repeat;}
 
-.popup-quotation .select-item.car-price .car-price {height:170px;box-sizing:border-box;padding:30px 0 0 0;}
+.popup-quotation .select-item.car-option h3 {background-color:#555;}
+.popup-quotation .select-item.car-option ul {height:130px;}
+
+.popup-quotation .select-item.car-color h3 {background-color:#555;}
+.popup-quotation .select-item.car-color .color-list {padding:0 30px;box-sizing:border-box;}
+.popup-quotation .select-item.car-color .color-list .color-item {text-align:center;padding-top:7px;}
+.popup-quotation .select-item.car-color .color-list .color-item input[type="radio"] {display:none;}
+.popup-quotation .select-item.car-color .color-list .color-item input[type="radio"] + label {display:inline-block;padding:8px 8px 0 8px;margin:0 auto;width:100px;height:90px;overflow:hidden;border:2px solid transparent;box-sizing:border-box;cursor:pointer;}
+.popup-quotation .select-item.car-color .color-list .color-item input[type="radio"]:checked + label {border:2px solid #e00000;}
+.popup-quotation .select-item.car-color .color-list .color-item .color-box {display:inline-block;width:60px;height:20px;border:1px solid #bdbdbd;box-sizing:border-box;}
+.popup-quotation .select-item.car-color .color-list .color-item span {display:block;font-size:14px;line-height:15px;color:#555;}
+.popup-quotation .select-item.car-color .color-list .owl-nav {position:absolute;top:0;left:0;right:0;}
+.popup-quotation .select-item.car-color .color-list .owl-nav button.owl-next,
+.popup-quotation .select-item.car-color .color-list .owl-nav button.owl-prev {position:absolute;top:0;left:0;display:inline-block;width:30px;height:90px;font-size:36px;font-weight:600;line-height:40px;}
+.popup-quotation .select-item.car-color .color-list .owl-nav button.owl-next {position:absolute;top:0;right:0;left:auto;}
+
+.popup-quotation .select-item.car-price h3 {background-color:#555;}
+.popup-quotation .select-item.car-price .car-price {height:280px;box-sizing:border-box;padding:20px 0 0 0;}
+.popup-quotation .select-item.car-price .car-price .car-image {height:120px;line-height:120px;text-align:center;}
+.popup-quotation .select-item.car-price .car-price .car-image img {max-height:100px;vertical-align:middle;}
 .popup-quotation .select-item.car-price .car-price .car-info strong {display:block;text-align:center;font-size:20px;}
 .popup-quotation .select-item.car-price .car-price .car-info span {display:block;text-align:center;}
 .popup-quotation .select-item.car-price .car-price .price-info {text-align:center;color:#e00000;}
-.popup-quotation .select-item.car-price .car-price .price-info strong {font-size:48px;font-weight:600;}
+.popup-quotation .select-item.car-price .car-price .price-info strong {font-size:42px;font-weight:600;}
 .popup-quotation .select-item.car-price .car-price .price-info span {font-size:28px;}
 
 .popup-quotation .select-item.form-area h3 {background-color:#333;}
@@ -483,3 +503,33 @@ input,button,select,textarea {outline:none;font-family:'Noto Sans KR', sans-seri
 .popup-quotation .popup-footer .footer-btnarea {padding-top:15px;}
 .popup-quotation .popup-footer .quotation-submit {display:inline-block;padding:10px 100px;background-color:#e00000;color:#fff;border:0 none;border-bottom:4px solid #af0000;font-size:20px;cursor:pointer;}
 .popup-quotation .popup-footer .quotation-submit:hover {border-bottom-color:#e00000;}
+
+.popup-policy {position:fixed;top:0;left:0;right:0;bottom:0;z-index:100;background-color:rgba(0,0,0,0.9);display:none;}
+.popup-policy.on {display:block;}
+.popup-policy .popup-box {background-color:#fff;position:absolute;top:50px;left:50%;bottom:50px;width:1010px;transform:translateX(-50%);overflow:auto;border-radius:20px;}
+.popup-policy .popup-box .popup-tt {position:absolute;top:0;left:0;right:0;border-radius:20px 20px 0 0;height:90px;}
+.popup-policy .popup-box .popup-tt h2 {text-align:center;padding:30px 0 10px 0;font-size:32px;}
+.popup-policy .popup-box .popup-tt .popup-close {position:absolute;right:30px;top:30px;width:40px;height:40px;padding:0;background-color:transparent;border:0 none;cursor:pointer;}
+.popup-policy .popup-box .popup-ctn {position:absolute;top:90px;left:0;bottom:20px;right:0;overflow:auto;}
+
+.popup-policy .popup-box .popup-ctn .mCSB_inside > .mCSB_container {padding:0 20px 0 50px;}
+
+.policy-box h3 {font-size:18px;padding:5px 0;}
+.policy-check {padding:10px 0;}
+.policy-check input[type="checkbox"] {width:20px;height:20px;vertical-align:middle;}
+.policy-check label {display:inline-block;vertical-align:middle;font-size:18px;padding-left:5px;cursor:pointer;}
+.policy-check.check-all {padding:10px 0;}
+.policy-check.check-all label {font-size:20px;}
+.policy-ctn {padding:20px;border:1px solid #bcbcbc;}
+.policy-ctn table {width:100%;border-collapse:collapse;}
+.policy-ctn th,
+.policy-ctn td {border:1px solid #bcbcbc;font-size:13px;padding:8px 10px;color:#555;}
+.policy-ctn th {background-color:#f2f2f2;font-weight:400;}
+.policy-ctn p {color:#e00000;padding-top:5px;font-size:13px;font-weight:300;}
+
+
+.popup-policy .popup-footer {clear:both;padding:20px 0;text-align:center;}
+.popup-policy .popup-footer .user-agree {font-size:14px;}
+.popup-policy .popup-footer .footer-btnarea {padding-top:15px;}
+.popup-policy .popup-footer .policy-submit {display:inline-block;padding:10px 100px;background-color:#e00000;color:#fff;border:0 none;border-bottom:4px solid #af0000;font-size:20px;cursor:pointer;}
+.popup-policy .popup-footer .policy-submit:hover {border-bottom-color:#e00000;}
